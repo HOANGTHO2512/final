@@ -11,14 +11,14 @@ export default function HomePage() {
                 <div className="max-w-7xl mx-auto">
                     {/* Hero Section */}
                     <div className="text-center max-w-3xl mx-auto mb-20 animate-fade-in-up">
-                        <span className="inline-block py-1 px-4 rounded-full bg-blue-50 text-blue-600 text-xs font-bold tracking-wider mb-6 border border-blue-100">
+                        <span className="inline-block py-1 px-4 rounded-full bg-primary-50 text-primary-600 text-xs font-bold tracking-wider mb-6 border border-primary-100">
                             AI-POWERED CAREER NAVIGATION
                         </span>
                         <h1 className="text-5xl md:text-6xl font-black text-slate-900 leading-tight mb-6">
                             用數據理解自己，<br />打造更強大的
-                            <span className="text-blue-600 relative inline-block">
+                            <span className="text-primary-600 relative inline-block">
                                 未來履歷
-                                <svg className="absolute w-full h-3 -bottom-1 left-0 text-blue-200 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
+                                <svg className="absolute w-full h-3 -bottom-1 left-0 text-primary-200 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
                                     <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
                                 </svg>
                             </span>。

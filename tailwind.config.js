@@ -9,12 +9,12 @@ export default {
             colors: {
                 // Primary Colors
                 primary: {
-                    50: '#EFF6FF',
-                    100: '#DBEAFE',
-                    DEFAULT: '#2563EB',
-                    500: '#2563EB',
-                    600: '#1D4ED8',
-                    700: '#1E40AF',
+                    50: '#EFF8FC',
+                    100: '#D1EBF7',
+                    DEFAULT: '#9FD7F9',
+                    500: '#9FD7F9',
+                    600: '#6FC4F4',
+                    700: '#3FA8E8',
                 },
                 // Accent Colors
                 accent: {
@@ -41,22 +41,22 @@ export default {
                 sans: ['Inter', 'Noto Sans TC', 'sans-serif'],
             },
             animation: {
-                'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-                'slide-up': 'slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                'fade-in-up': 'fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards',
+                'slide-up': 'slideUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards',
             },
             keyframes: {
                 fadeInUp: {
-                    '0%': { opacity: '0', transform: 'translateY(20px)' },
+                    '0%': { opacity: '0', transform: 'translateY(40px)' },
                     '100%': { opacity: '1', transform: 'translateY(0)' },
                 },
                 slideUp: {
-                    '0%': { opacity: '0', transform: 'translateY(20px)' },
+                    '0%': { opacity: '0', transform: 'translateY(40px)' },
                     '100%': { opacity: '1', transform: 'translateY(0)' },
                 },
             },
             boxShadow: {
-                'soft': '0 10px 40px -10px rgba(37, 99, 235, 0.1)',
-                'hover': '0 20px 40px -10px rgba(37, 99, 235, 0.2)',
+                'soft': '0 10px 40px -10px rgba(159, 215, 249, 0.2)',
+                'hover': '0 20px 40px -10px rgba(159, 215, 249, 0.3)',
             },
         },
     },

@@ -199,7 +199,7 @@ export default function BrandTestPage() {
                             <div
                                 key={idx}
                                 className="mb-8 p-6 bg-white rounded-2xl border border-slate-100 shadow-sm animate-fade-in-up"
-                                style={{ animationDelay: `${i * 0.1}s` }}
+                                style={{ animationDelay: `${i * 0.15}s` }}
                             >
                                 <h3 className="font-bold text-lg text-slate-800 mb-4">
                                     {idx + 1}. {q.t}
@@ -304,7 +304,7 @@ export default function BrandTestPage() {
                     </div>
 
                     {/* Left Column */}
-                    <div className="lg:col-span-5 space-y-6 animate-fade-in-up delay-100">
+                    <div className="lg:col-span-5 space-y-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
                         {/* Radar */}
                         <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
                             <h3 className="font-bold text-lg text-slate-800 mb-4 flex items-center gap-2">
@@ -355,7 +355,7 @@ export default function BrandTestPage() {
                     </div>
 
                     {/* Right Column */}
-                    <div className="lg:col-span-7 space-y-6 animate-fade-in-up delay-200">
+                    <div className="lg:col-span-7 space-y-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                         {/* Radar Details */}
                         <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
                             <h3 className="font-bold text-lg text-slate-800 mb-4 flex items-center gap-2">

@@ -497,7 +497,7 @@ export default function CareerFitProPage() {
 
             {/* Toast */}
             {showToast && (
-                <div className="fixed bottom-6 right-6 bg-slate-900 text-white px-5 py-3 rounded-lg shadow-xl z-[10000] flex items-center gap-2 animate-slide-up">
+                <div className="fixed bottom-6 right-6 bg-slate-900 text-white px-5 py-3 rounded-lg shadow-xl z-[10000] flex items-center gap-2">
                     ✅ {toastMessage}
                 </div>
             )}
