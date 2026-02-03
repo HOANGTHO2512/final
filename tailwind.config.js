@@ -7,14 +7,35 @@ export default {
     theme: {
         extend: {
             colors: {
+                // Primary Colors
                 primary: {
-                    DEFAULT: '#2563eb',
-                    light: '#eff6ff',
-                    dark: '#1e3a8a',
+                    50: '#EFF6FF',
+                    100: '#DBEAFE',
+                    DEFAULT: '#2563EB',
+                    500: '#2563EB',
+                    600: '#1D4ED8',
+                    700: '#1E40AF',
                 },
-                surface: '#ffffff',
-                'text-main': '#0f172a',
-                'text-sub': '#64748b',
+                // Accent Colors
+                accent: {
+                    50: '#F5F3FF',
+                    100: '#EDE9FE',
+                    DEFAULT: '#7C3AED',
+                    500: '#7C3AED',
+                    600: '#6D28D9',
+                    700: '#5B21B6',
+                },
+                // Status Colors
+                success: '#10B981',
+                warning: '#F59E0B',
+                error: '#EF4444',
+                info: '#0EA5E9',
+                // Neutral Colors
+                'light-gray': '#F3F4F6',
+                'dark-gray': '#374151',
+                'text-main': '#374151',
+                'text-sub': '#9CA3AF',
+                surface: '#FFFFFF',
             },
             fontFamily: {
                 sans: ['Inter', 'Noto Sans TC', 'sans-serif'],
