@@ -34,22 +34,11 @@ const ChatBot = () => {
             console.warn('❌ VITE_GEMINI_API_KEY not found in environment variables');
         }
 
-        // Load saved messages from localStorage
-        const savedMessages = localStorage.getItem('chatbot_history');
-        if (savedMessages) {
-            try {
-                setMessages(JSON.parse(savedMessages));
-            } catch (e) {
-                console.error('Error loading chat history:', e);
-                setMessages([
-                    { role: 'assistant', text: '你好！👋 我是您的 AI 職涯顧問。我可以幫助您探索職業適配性、優化個人品牌，以及規劃職涯發展。有什麼我可以協助的嗎？' }
-                ]);
-            }
-        } else {
-            setMessages([
-                { role: 'assistant', text: '你好！👋 我是您的 AI 職涯顧問。我可以幫助您探索職業適配性、優化個人品牌，以及規劃職涯發展。有什麼我可以協助的嗎？' }
-            ]);
-        }
+        // Clear chat history on page load
+        localStorage.removeItem('chatbot_history');
+        setMessages([
+            { role: 'assistant', text: '你好！👋 我是您的 AI 職涯顧問。我可以幫助您探索職業適配性、優化個人品牌，以及規劃職涯發展。有什麼我可以協助的嗎？' }
+        ]);
     }, []);
 
     // Save messages to localStorage whenever they change
